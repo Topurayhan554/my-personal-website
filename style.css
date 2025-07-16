@@ -40,13 +40,15 @@ ul li a {
 
 /* banner */
 
-.banner {
+.banner,
+.banner-2 {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 15px 0;
 }
-.banner img {
+.banner img,
+.banner-2 img {
   width: 465px;
   height: 613px;
 }
@@ -176,4 +178,8 @@ ul li a {
   width: 36px;
   height: 36px;
   margin-left: 15px;
+}
+
+.hide {
+  display: none;
 }
