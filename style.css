@@ -112,6 +112,7 @@ ul li a {
   padding: 10px;
   border-radius: 10px;
   box-shadow: 2px 0px 8px 0 rgba(0 0 0 / 15%);
+  width: 370px;
 }
 .projects-card h3 {
   font-size: 24px;
