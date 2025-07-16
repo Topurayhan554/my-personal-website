@@ -1,6 +1,7 @@
 @media screen and (max-width: 576px) {
   .list-items {
     justify-content: center;
+    margin: 10px auto;
   }
   .banner {
     flex-direction: column-reverse;
@@ -9,10 +10,14 @@
     height: 100%;
   }
   .banner-2 img {
+    margin: 0 auto;
+    padding-bottom: 10px;
     width: 50%;
     height: 50%;
   }
   .banner img {
+    margin: 0 auto;
+    padding-bottom: 10px;
     width: 50%;
     height: 50%;
   }
@@ -40,5 +45,9 @@
   .work-title {
     flex-direction: column;
     width: 70%;
+    margin: 0 auto;
+  }
+  .projects-parent {
+    width: 100%;
   }
 }
